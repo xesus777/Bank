@@ -36,7 +36,7 @@ namespace BankAccountNS
         /// <param name="amount">Сумма снятия.</param>
         /// <exception cref="ArgumentOutOfRangeException">
         /// Выбрасывается, если сумма больше баланса или меньше нуля.
-        /// </exception>
+        /// </exception> 
         public void Debit(double amount)
         {
             if (amount > m_balance)
